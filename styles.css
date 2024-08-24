@@ -1,0 +1,67 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('i\ \(1\).webp'); /* Orqa fon rasm */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#countdown {
+    font-size: 2em;
+}
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('i\ \(1\).webp'); /* Orqa fon rasm */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+}
+
+.dice {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    background-color: #f1c40f; /* Oltin rang */
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.6s ease-in-out;
+    text-shadow: 0 0 5px #f39c12, 0 0 10px #f39c12; /* Oltin tovlanish effekt */
+}
+
+.dice-roll {
+    opacity: 1;
+    transform: scale(1);
+}
